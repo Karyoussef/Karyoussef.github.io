@@ -1,0 +1,60 @@
+*{
+
+	color: black !important;
+
+
+}
+	
+nav{
+	border: 2px solid black !important;
+}
+
+
+
+
+#collapsable-menu{
+
+	border-color: black;
+}
+
+	
+#collapsable-menu li{
+
+	text-align: center;
+
+}
+
+hr{
+	margin: 0px;
+	border-color: black;
+}
+
+h1{
+	margin-bottom: 30px;
+}
+
+#content{
+
+	height: 1000px;
+	background-color: #67696C;
+	padding-right: 15px;
+	padding-left: 15px;
+	padding-top: 5px;
+}
+
+@media(max-width: 767px){
+
+	#collapsable-menu{
+		background-color: #47494D;
+	}
+
+	#content{
+
+		width: 90%;
+		margin-left:auto;
+		margin-right: auto;
+
+
+	}
+
+}
